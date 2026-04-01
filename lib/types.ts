@@ -20,7 +20,9 @@ export type PaperFormatting = {
     fileName: string
     fontFamily: string
     bodyFontSize: number
-    headingFontSize: number
+    heading1FontSize: number
+    heading2FontSize: number
+    heading3FontSize: number
     titleFontSize: number
     lineSpacing: number
     paragraphSpacing: number
@@ -29,4 +31,12 @@ export type PaperFormatting = {
     marginBottom: number
     marginLeft: number
     alignment: "left" | "justify" | "center"
+    titleColor: string
+    heading1Color: string
+    heading2Color: string
+    heading3Color: string
+    bodyColor: string
+    pageBackground: string
+    boldHeadings: boolean
+    uppercaseHeadings: boolean
 }
