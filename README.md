@@ -1,36 +1,150 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# YourEvidence?
 
-## Getting Started
+A slightly annoying, slightly funny, but surprisingly useful tool that keeps asking:
 
-First, run the development server:
+> **"Evidence?"**
+
+Every. Single. Time.
+
+---
+
+## What is this?
+
+**YourEvidence?** is a chat-based tool where:
+
+* You type anything
+* It replies: **"Evidence?"**
+* You respond
+* It asks again
+* And again
+* And again…
+
+Until you finally give up and press:
+
+👉 **Enough**
+
+Then it turns your chaotic thoughts into a **research paper draft**.
+
+---
+
+## Why does this exist?
+
+Because:
+
+* People make claims without evidence
+* Ideas sound smart until you question them
+* Deep thinking only happens when pushed
+
+This tool forces you into:
+
+* questioning your own thoughts
+* backing claims
+* going deeper (sometimes too deep)
+
+---
+
+## What happens after "Enough"?
+
+1. All your messages are collected
+2. Sent to local AI
+3. Converted into a structured research paper
+4. You customize formatting (like MS Word)
+5. Download your **first draft (.docx)**
+
+---
+
+## Use cases
+
+* 🤡 Fun experiment with friends
+* 🧠 Overthinking your own ideas
+* 📚 Actually building research drafts
+* 🕳 Falling into endless wiki rabbit holes
+
+---
+
+## Features
+
+* Chat UI with endless **"Evidence?" loop**
+* AI-generated research paper draft
+* Full Word formatting control:
+
+  * Headings (H1, H2, H3)
+  * Fonts and sizes
+  * Colors
+  * Margins
+* Download as `.docx`
+* Fully local AI (no API costs)
+
+---
+
+## Important (Local Setup Required)
+
+This app runs **locally using Ollama**
+
+👉 No paid APIs
+👉 No hidden costs
+👉 No wallet damage
+
+---
+
+## Setup
+
+### 1. Install Ollama
+
+https://ollama.com
+
+### 2. Pull model
+
+```bash
+ollama pull gemma3
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Run app
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 5. Open
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Philosophy (kind of)
 
-To learn more about Next.js, take a look at the following resources:
+* Every claim deserves evidence
+* Every idea can be questioned
+* Every rabbit hole goes deeper
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Warning
 
-## Deploy on Vercel
+You may:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* question everything
+* doubt your own thoughts
+* go too deep into random topics
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Roadmap
+
+* [ ] Better research structuring
+* [ ] Citation validation
+* [ ] PDF export
+* [ ] Desktop app (Tauri)
+* [ ] Evidence scoring system
+
+---
+
+## License
+
+MIT
