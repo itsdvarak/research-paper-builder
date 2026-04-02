@@ -7,6 +7,9 @@ A slightly annoying, slightly funny, but surprisingly useful tool that keeps ask
 Every. Single. Time.
 
 ---
+<img width="2668" height="1700" alt="image" src="https://github.com/user-attachments/assets/2fdd8000-83b9-4977-8043-06a448b06365" />
+
+---
 
 ## What is this?
 
